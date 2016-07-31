@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: #181717;
+}
+
+#wrapper {
+	border: 1px #202020 solid;
+	color: #b9b9b9;
+	padding: 20px;
+	border-radius: 4px;
+  box-shadow: 0 0 6px #505050;
+}
+
+@media (max-width: 661px) {
+  .nav-tabs > li {
+    float: none;
+  }
+
+  .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+    border: none;
+  }
+
+  body {
+    background-color: #181717;
+  }
+
+  #wrapper {
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
