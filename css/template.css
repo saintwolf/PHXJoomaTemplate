@@ -12,8 +12,16 @@ body {
 	color: #b9b9b9;
 	padding: 20px;
 	border-radius: 4px;
-  	box-shadow: 0 0 6px #505050;
-  	background-color: #222121;
+  box-shadow: 0 0 6px #505050;
+	background-color: #222121;
+}
+
+.span3 > div {
+	text-align: center;
+}
+
+#modlgn-remember {
+	float: unset;
 }
 
 @media (max-width: 661px) {
