@@ -13,15 +13,28 @@ body {
 	padding: 20px;
 	border-radius: 4px;
   box-shadow: 0 0 6px #505050;
-	background-color: #222121;
 }
 
-.span3 > div {
+div.span3 > div {
+	border: 1px #202020 solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	box-shadow: 0 0 6px #505050;
 }
 
-#modlgn-remember {
-	float: unset;
+div#form-login-remember {
+	margin: auto;
+	width: 100px;
+}
+
+#login-form .userdata > ul {
+	list-style: none;
+	margin: auto;
 }
 
 @media (max-width: 661px) {

@@ -1,1 +1,1 @@
-# PHXJoomaTemplate
+# PHXJoomlaTemplate

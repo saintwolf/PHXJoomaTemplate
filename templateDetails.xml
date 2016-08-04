@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.6" type="template">
-	<name>PhxJoomlaTemplate</name>
+	<name>phxjoomla</name>
 	<creationDate>2016-07-31</creationDate>
 	<author>John Good</author>
 	<authorEmail>judiconis@gmail.com </authorEmail>
 	<authorUrl>http://phoenix-battalion.com</authorUrl>
 	<copyright>Phoenix Battalion 2016</copyright>
 	<license>Proprietary</license>
-	<version>1.0.2</version>
+	<version>1.0.1</version>
 	<description>PHX Template for Joomla</description>
 	<files>
 		<filename>index.php</filename>

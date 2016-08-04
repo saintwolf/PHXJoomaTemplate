@@ -107,7 +107,8 @@ if (JPluginHelper::isEnabled('authentication', 'openid')) {
 
 		<?php if (JPluginHelper::isEnabled('system', 'remember') && $params->get('show_rememberme')) : ?>
 			<div id="form-login-remember" class="control-group checkbox">
-				<label for="modlgn-remember" class="control-label"><?php echo JText::_('REMEMBER_ME') ?></label> <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+			<label class="control-label">
+				<input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/><?php echo JText::_('REMEMBER_ME') ?></label> 
 			</div>
 		<?php endif; ?>
 
