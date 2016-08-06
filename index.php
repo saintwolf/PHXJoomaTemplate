@@ -69,6 +69,7 @@ else
 				<jdoc:include type="modules" name="left" style="xhtml" />
 			</div>
 			<div id="content" class="<?=$span ?>">
+				<jdoc:include type="message" />
 				<jdoc:include type="component" />
 			</div>
 			<div class="span3">
