@@ -37,6 +37,11 @@ div#form-login-remember {
 	margin: auto;
 }
 
+/* Jfusion Forum Activity Module */
+ul.jfusion-forum-activity {
+	margin: 0px;
+}
+
 @media (max-width: 661px) {
   .nav-tabs > li {
     float: none;
